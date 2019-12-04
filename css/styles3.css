@@ -1,0 +1,71 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap; 
+        
+}
+
+.item {
+
+}
+
+.container2 {
+    display: flex;
+    flex-flow: row
+}
+
+.item2 {
+   
+}
+
+.height_50 {
+    height: 50px;
+}
+
+.header {
+    background-color: orangered;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.footer {
+    background-color: lightgreen;
+    text-align: center;
+    font-size: 1.3em;    
+}
+
+.header > div, .footer > div {
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.aside1{
+    font-size: 1.3em;  
+    text-align: center;
+    width: 250px;
+}
+
+.aside2 {
+    font-size: 1.3em;  
+    text-align: center;
+    width: 250px;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.celeste {
+    background-color: lightskyblue;
+}
+
+.pink {
+    background-color: palevioletred;
+}
+
+.medio {
+    padding: 25px 15px;
+}
